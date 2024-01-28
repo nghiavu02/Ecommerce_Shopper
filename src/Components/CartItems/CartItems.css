@@ -1,0 +1,116 @@
+.cart-item{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 40px;
+    
+}
+
+.cart-item--main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    /* gap: 75px; */
+    gap: 20px;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cart-item--img{
+    height: 130px;
+    object-fit: cover;
+}
+.cart-item--quantity{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+
+
+.cart-item--remove{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    color: white;
+}
+.cart-item--remove:hover{
+}
+.cart-item--down{
+    display: flex;
+    margin: 100px 0;
+    font-size: 16x;
+    display: flex;
+    gap: 80px;
+}
+
+.cart-item--total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 200px; */
+    gap: 10px;
+}
+.cart-item--total__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cart-item--total button{
+    width: 220px;
+    height: 50px;
+    background: #ff5a5a;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.cart-item--total button:hover{
+    background: #ccc;
+}
+.cart-item--promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cart-item--promocode p{
+    color:#555;
+    margin-left: 20px;
+}
+.cart-item--promobox{
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-item--promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    padding: 0 20px;
+}
+.cart-item--promobox button{
+    background: #000;
+    color: white;
+    height: 50px;
+    border: none;
+    outline: none;
+    width: 120px;
+    position: relative;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,31 @@
+.descriptionbox-navigator{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.description-nav-box{
+    width: 120px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.fade{
+    font-weight: 500;
+}
+.descriptionbox-desc{
+    border: 1px solid #ccc;
+    padding: 40px;
+}
+.descriptionbox-desc p{
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+.description-nav-box:hover{
+    background: #ccc;
+}

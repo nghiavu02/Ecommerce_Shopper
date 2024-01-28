@@ -1,0 +1,30 @@
+.relatedproducts{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.relatedproducts h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.relatedproducts-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.relatedproducts hr{
+    width: 100px;
+    margin-bottom: 50px;
+    height: 3px;
+    background-color: black;
+    border-radius: 4px;
+}
+.relatedproducts-item{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}

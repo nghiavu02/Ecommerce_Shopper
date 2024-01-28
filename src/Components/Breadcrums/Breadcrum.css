@@ -1,0 +1,10 @@
+.breadcrum{
+    display: flex;
+    align-items: center;
+    grid: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.breadcrum img{
+    margin: 0 10px;
+}
